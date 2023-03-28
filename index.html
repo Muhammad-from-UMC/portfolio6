@@ -11,7 +11,7 @@
     <title>ArchiWeb (6-th site for portfolio)</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
             <div class="header-flex">
                 <div class="logo-box">
@@ -19,10 +19,10 @@
                 </div>
                 <div class="header__menu-box">
                     <ul class="header__menu-flex">
-                        <li class="header__menu"><a class="header__menu-link" href="#">Home</a></li>
-                        <li class="header__menu"><a class="header__menu-link" href="#">Projects</a></li>
-                        <li class="header__menu"><a class="header__menu-link" href="#">About</a></li>
-                        <li class="header__menu"><a class="header__menu-link" href="#">Contact</a></li>
+                        <li class="header__menu"><a class="header__menu-link" href="#home">Home</a></li>
+                        <li class="header__menu"><a class="header__menu-link" href="#projects">Projects</a></li>
+                        <li class="header__menu"><a class="header__menu-link" href="#about">About</a></li>
+                        <li class="header__menu"><a class="header__menu-link" href="#contact">Contact</a></li>
                     </ul>
                     <div class="search-box">
                         <button class="btn-search"><img class="search-img" src="img/header-button.png" alt=""></button>
@@ -30,16 +30,13 @@
                       </div>
                 </div>
             </div>
+            <div class="header__main_flex-box">
+                <div class="header__main_text-box">
+                    <h2 class="h2_text-style header__h2-style">Best Solution For Your Home</h2>
+                    <p class="header__main_text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet</p>
+                </div>
+            </div>
         </div>
-    <div class="header__main_flex-box">
-        <div class="header__main_text-box">
-            <h2 class="h2_text-style header__h2-style">Best Solution For Your Home</h2>
-            <p class="header__main_text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet</p>
-        </div>
-        <div class="header__main_image-box">
-            <img class="header__main_image-file" src="img/header-image.jpg" alt="header-image">
-        </div>
-    </div>
     </header>
     <section class="our_services">
         <div class="container">
@@ -75,7 +72,7 @@
             </div>
         </div>
     </section>
-    <section class="about_us">
+    <section class="about_us" id="about">
         <div class="container">
             <div class="about_us__flex-box">
                 <div class="about_us__image-box">
@@ -89,7 +86,7 @@
             </div>
         </div>
     </section>
-    <section class="our_projects">
+    <section class="our_projects" id="projects">
         <div class="container">
             <h2 class="h2_text-style our_projects__h2-style">Our Projects</h2>
             <div class="our_projects__grid-box">
@@ -145,11 +142,11 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="footer__flex-box">
                 <div class="footer__left-item">
-                    <h4 class="logo footer__logo">ArchiWeb</h4>
+                    <a href="#home"><h4 class="logo footer__logo">ArchiWeb</h4></a>
                     <p class="footer__left-item_text-p">Archiweb is an architectural consultant based in Berlin, Germany. We provide solutions for your architecture and residential design</p>
                     <div class="footer__social-media">
                         <a href="https://www.facebook.com/" class="footer__facebook-link">
@@ -165,9 +162,9 @@
                 </div>
                 <div class="footer__middle-item">
                     <h5 class="h5_text-style footer__middle-item_headline">Articles</h5>
-                    <p class="footer__middle-item_text-p-style footer__middle-item_first-text-p">7 Tips for Kids Friendly Interior Design
-                    <p class="footer__middle-item_text-p-style footer__middle-item_second-text-p">Smart Tips for Changing a Room</p> 
-                    <p class="footer__middle-item_text-p-style footer__middle-item_third-text-p">Eco-friendly design</p>
+                    <a href="#"><p class="footer__middle-item_text-p-style footer__middle-item_first-text-p">7 Tips for Kids Friendly Interior Design</p></a>
+                    <a href="#"><p class="footer__middle-item_text-p-style footer__middle-item_second-text-p">Smart Tips for Changing a Room</p></a> 
+                    <a href="#"><p class="footer__middle-item_text-p-style footer__middle-item_third-text-p">Eco-friendly design</p></a>
                 </div>
                 <div class="footer__right-item">
                     <h5 class="h5_text-style footer__right-item_headline">Location</h5>

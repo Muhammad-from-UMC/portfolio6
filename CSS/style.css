@@ -222,21 +222,25 @@ a {
 }
 
 
+.about_us__h2-style {
+    margin-left: 822px; /* было 2 */
+    margin-top: 143px; /* небыло */
+}
 .about_us__flex-box {
     display: flex;
-    margin: 77px auto 92px;
+    /* margin: 77px auto 92px; */
+    margin: 0 auto 92px;
 }
 .about_us__image-box {
     margin-right: 85px;
+    margin-top: -133px;
 }
 .about_us__image-file {
     max-width: 735px;
 }
 .about_us__text-box {
-    margin-top: 66px;
-}
-.about_us__h2-style {
-    margin-left: 2px;
+    /* margin-top: 66px; */
+    margin-top: 22px;
 }
 .about_us__text-p {
     font-weight: 400;
@@ -244,7 +248,8 @@ a {
     line-height: 50px;
     color: #2F2E2E;
     max-width: 456px;
-    margin: 22px 0 32px;
+    /* margin: 22px 0 32px; */
+    margin: 0 0 32px;
 }
 .about_us__link {
     font-family: 'Inter', sans-serif;
@@ -404,6 +409,9 @@ a {
     .about_us__text-box {
         margin-right: 10px;
     }
+    .about_us__h2-style {
+        margin-left: 767px;
+    }
 }
 @media screen and (max-width: 1255px) {
     .header-flex {
@@ -421,8 +429,17 @@ a {
     .our_projects__grid-box {
         gap: 85px 26px;
     }
-    .about_us__text-box {
+    /* .about_us__text-box {
         margin-top: 0;
+    } */
+    .about_us__h2-style { /**/
+        margin-top: 57px;
+    }
+    .about_us__image-box { /**/
+        margin-top: -47px;
+    }
+    .footer__right-item { /**/
+        margin-left: 45px;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -453,6 +470,9 @@ a {
     .about_us__image-file {
         max-width: 550px;
     }
+    .about_us__h2-style {
+        margin-left: 580px;
+    }
     .testimonial__flex-box {
         flex-wrap: wrap;
         margin-bottom: 25px;
@@ -472,9 +492,16 @@ a {
     .about_us__text-box {
         min-width: 358px;
         padding-top: 30px;
+        padding-left: 30px;
     }
     .about_us__h2-style {
         text-align: center;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .about_us__image-box {
+        margin-top: 35px;
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 939px) {
@@ -538,7 +565,7 @@ a {
         flex-wrap: wrap;
     }
     .about_us__image-box {
-        margin: 0 auto;
+        margin: 35px auto 0;
     }
     .about_us__image-file {
         max-width: 410px;
@@ -550,6 +577,9 @@ a {
     .our_services__interior_text-p,
     .our_services__exterior_text-p {
         margin: 12px 5px 0;
+    }
+    .about_us__text-box {
+        margin: 22px auto;
     }
 }
 @media screen and (max-width: 580px) {
@@ -579,7 +609,9 @@ a {
         margin: 0 10px;
     }
     .about_us__text-box {
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
         text-align: center;
     }
 }
@@ -617,5 +649,21 @@ a {
     }
     .testimonial__Abram_text-p {
         margin-right: 15px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .about_us__text-box {
+        padding: 30px 10px;
+    }
+    .about_us__image-file {
+        padding: 0 10px;
+    }
+    .testimonial__Abram_text-p {
+        margin-right: 0;
+        padding-right: 10px;
+        max-width: 164px;
+    }
+    .testimonial__Abram_h3-style {
+        margin-right: 10px;
     }
 }

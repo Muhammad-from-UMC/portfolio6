@@ -27,6 +27,8 @@ a {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+
 .header {
     overflow: hidden;
 }
@@ -223,12 +225,11 @@ a {
 
 
 .about_us__h2-style {
-    margin-left: 822px; /* было 2 */
-    margin-top: 143px; /* небыло */
+    margin-left: 822px;
+    margin-top: 143px;
 }
 .about_us__flex-box {
     display: flex;
-    /* margin: 77px auto 92px; */
     margin: 0 auto 92px;
 }
 .about_us__image-box {
@@ -239,7 +240,6 @@ a {
     max-width: 735px;
 }
 .about_us__text-box {
-    /* margin-top: 66px; */
     margin-top: 22px;
 }
 .about_us__text-p {
@@ -248,7 +248,6 @@ a {
     line-height: 50px;
     color: #2F2E2E;
     max-width: 456px;
-    /* margin: 22px 0 32px; */
     margin: 0 0 32px;
 }
 .about_us__link {
@@ -258,7 +257,6 @@ a {
     line-height: 29px;
     color: #2F2E2E;
 }
-
 
 .our_projects__h2-style {
     margin-bottom: 71px;
@@ -429,16 +427,13 @@ a {
     .our_projects__grid-box {
         gap: 85px 26px;
     }
-    /* .about_us__text-box {
-        margin-top: 0;
-    } */
-    .about_us__h2-style { /**/
+    .about_us__h2-style {
         margin-top: 57px;
     }
-    .about_us__image-box { /**/
+    .about_us__image-box {
         margin-top: -47px;
     }
-    .footer__right-item { /**/
+    .footer__right-item {
         margin-left: 45px;
     }
 }
@@ -587,7 +582,6 @@ a {
         flex-direction: column;
     }
     .input-search {
-        /* padding: 0; */
         margin-top: 15px;
     }
     .btn-search {
